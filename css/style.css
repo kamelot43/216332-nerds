@@ -1,0 +1,13 @@
+body {
+font-family: "Robotto", "Arial", sans-serif;
+font-size: 16px;
+line-height: 22px;
+color: rgb(40, 49, 54);
+font-weight: bold;
+}
+
+h1 {
+font-size:40px;
+line-height:auto;
+color:rgb(0,0,0);
+}

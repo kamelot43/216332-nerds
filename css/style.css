@@ -16,10 +16,17 @@ h1 {
   display: table;
   clear: both;
 }
-.main-header {
-	outline: 2px solid red;
+.main-header {	
 	margin-bottom: 50px;
 	min-height: 85px;
+}
+
+.main-header-catalog {
+	min-height: 328px;
+	outline: 2px solid yellow;
+}
+.main-header .container {
+	outline: 2px solid red;
 }
 .container {
 	width: 880px;
@@ -33,7 +40,8 @@ h1 {
 }
 .main-navigation {
 	min-height: 85px;
-	width: 460px;
+	width: 560px;
+	outline: 2px solid green;
 }
 .main-navigation ul li{
 	display: inline-block;
@@ -42,8 +50,12 @@ h1 {
 	float: right;
 	min-height: 85px;
 	width: 90px;
+	outline: 2px solid yellow;
 }
 .slider {
+	margin-bottom: 80px;
+}
+.slider-content{
 	outline: 2px solid green;
 }
 .slider-content-left {
@@ -55,5 +67,106 @@ h1 {
 	float: right;
 	width: 400px;
 	min-height: 300px;
+}
+.features-item{
+	float: left;
+	width: 240px;
+	margin-right: 80px;
+	min-height: 300px;
+	outline: 2px solid green;
+}
+.features-item:last-child{
+	margin-right: 0px;
+}
+.about-company-content-left{
+	float: left;
+	width: 630px;
+	min-height: 340px;	
+}
+.about-company-content-right{
+	float: right;
+	width: 250px;
+	min-height: 340px;
+}
+.about-company{
+	margin-top: 140px;
+	outline: 2px solid blue;
+}
+.aside{
+	outline: 2px solid blue;
+}
+.aside-content-left{
+	float: left;
+	width: 460px;
+	min-height: 150px;
+}
+.aside-content-right {
+	float: right;
+	width: 240px;
+	min-height: 150px;
+}
+.catalog{
+	float: right;
+	width: 570px;
+	min-height: 1130px;
+	outline: 2px solid red;
+	margin-bottom: 80px;
+}
 
+.sidebar {
+	float: left;
+	width: 240px;
+	min-height: 730px;
+	outline: 2px solid green
+}
+.contacts {
+	clear: both;
+}
+.catalog-filter {
+	clear: both;
+}
+.catalog-filter ul li {
+	display: inline-block;
+}
+.catalog-item {
+	float: left;
+	width: 240px;
+	margin-bottom: 80px;
+}
+.catalog-item:nth-child(2n+1){
+	outline: 3px solid blue;
+	margin-left: 80px;
+}
+.catalog-item:nth-child(2n) {
+	outline: 3px solid green;
+}
+.catalog-pagination {
+	clear: both;
+}
+.gallery {
+	margin-top: 75px;
+	outline: 2px solid yellow;
+	min-height: 170px;
+	margin-bottom: 85px;
+}
+.gallery ul li {
+	display: inline-block;
+}
+.contacts {
+	width: 1199px;
+	min-height: 416px;
+	outline: 2px solid red;
+}
+.main-footer .container {
+	margin-top: 75px;	
+	min-height: 140px;
+	outline: 2px solid green;
+}
+.footer-container-left {
+	float: left;
+	width: 300px;
+}
+.footer-content-right {
+	float: right;
+	width: 560px;
 }

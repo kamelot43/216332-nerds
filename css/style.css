@@ -1,13 +1,59 @@
 body {
-font-family: "Robotto", "Arial", sans-serif;
-font-size: 16px;
-line-height: 22px;
-color: rgb(40, 49, 54);
-font-weight: bold;
+  font-family: "Robotto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgb(40, 49, 54);
+  font-weight: bold;
 }
 
 h1 {
-font-size:40px;
-line-height:auto;
-color:rgb(0,0,0);
+  font-size:40px;
+  line-height:auto;
+  color:rgb(0,0,0);
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-header {
+	outline: 2px solid red;
+	margin-bottom: 50px;
+	min-height: 85px;
+}
+.container {
+	width: 880px;
+	padding: 0 10px;	
+	margin: 0 auto;	
+}
+.index-logo {
+	float: left;
+	min-height: 85px;
+	width: 140px;
+}
+.main-navigation {
+	min-height: 85px;
+	width: 460px;
+}
+.main-navigation ul li{
+	display: inline-block;
+}
+.user-block {
+	float: right;
+	min-height: 85px;
+	width: 90px;
+}
+.slider {
+	outline: 2px solid green;
+}
+.slider-content-left {
+	float: left;
+	width: 390px;
+	min-height: 300px;
+}
+.slider-content-right{
+	float: right;
+	width: 400px;
+	min-height: 300px;
+
 }

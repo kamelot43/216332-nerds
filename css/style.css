@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+  clear: both;
   font-size:40px;
   line-height:auto;
   color:rgb(0,0,0);
@@ -39,6 +40,7 @@ h1 {
 	width: 140px;
 }
 .main-navigation {
+	float: left;
 	min-height: 85px;
 	width: 560px;
 	outline: 2px solid green;
@@ -47,10 +49,11 @@ h1 {
 	display: inline-block;
 }
 .user-block {
-	float: right;
+	float: left;
 	min-height: 85px;
 	width: 90px;
 	outline: 2px solid yellow;
+
 }
 .slider {
 	margin-bottom: 80px;
@@ -107,7 +110,7 @@ h1 {
 }
 .catalog{
 	float: right;
-	width: 570px;
+	width: 580px;
 	min-height: 1130px;
 	outline: 2px solid red;
 	margin-bottom: 80px;
@@ -130,7 +133,8 @@ h1 {
 }
 .catalog-item {
 	float: left;
-	width: 240px;
+	width: 250px;
+	min-height: 275px;
 	margin-bottom: 80px;
 }
 .catalog-item:nth-child(2n+1){
@@ -152,15 +156,14 @@ h1 {
 .gallery ul li {
 	display: inline-block;
 }
-.contacts {
-	width: 1199px;
-	min-height: 416px;
-	outline: 2px solid red;
-}
+
 .main-footer .container {
 	margin-top: 75px;	
 	min-height: 140px;
 	outline: 2px solid green;
+}
+.main-footer-map{
+
 }
 .footer-container-left {
 	float: left;

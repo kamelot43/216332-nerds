@@ -173,3 +173,10 @@ h1 {
 	float: right;
 	width: 560px;
 }
+.contacts-adress{
+	position: absolute;
+	top: 20px;
+}
+.main-footer{
+	outline: 3px solid red;
+}

@@ -146,7 +146,7 @@ h1 {
 .features {
 	min-height: 380px;	
 	background:url(../img/index/divide.png) no-repeat bottom;
-	margin-bottom: 60px;
+	margin-bottom:60px;
 }
 .features-name {
 	font-size: 18px;
@@ -195,30 +195,47 @@ h1 {
 
 .about-company-content-left{
 	float: left;
-	width: 630px;
-	min-height: 340px;	
+	width: 620px;
+	min-height: 415px;
+	outline:2px solid red;	
 }
 .about-company-content-right{
+	position: relative;
 	float: right;
-	width: 340px;
-	min-height: 235px;
+	width: 250px;
+	min-height: 415px;
+	outline: 2px solid green;
 }
 .about-company{
 	margin-top: 140px;
 	outline: 2px solid blue;
 }
-.aside{
-	outline: 2px solid blue;
+.about-company-slogan {
+	margin-top: 18px;
+	margin-bottom: 25px;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 600;
 }
-.aside-content-left{
-	float: left;
-	width: 460px;
-	min-height: 150px;
+.aside-content-title {
+	margin: 0px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+
 }
-.aside-content-right {
-	float: right;
-	width: 240px;
-	min-height: 150px;
+.about-company-desc {
+	margin: 0px;
+	margin-bottom: 54px;
+}
+.aside-content-left ul {
+	list-style: none;
+	margin: 0px;
+}
+.aside-content-left ul li {
+	margin:0px;
+	padding: 0px;
+	margin-left: 38px;
+	margin-top: 30px;
 }
 .catalog{
 	float: right;

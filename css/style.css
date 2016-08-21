@@ -28,9 +28,18 @@ h1 {
 .main-header-catalog {
 	min-height: 328px;
 	outline: 2px solid yellow;
+	background:#eeeeee;
+	margin-bottom: 80px;
 }
 .main-header .container {
 	outline: 2px solid red;
+}
+.main-welcome {
+	font-size: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding-top: 75px;
+	text-align: center;
 }
 .container {
 	width: 880px;
@@ -280,11 +289,18 @@ h1 {
 	margin-bottom: 80px;
 }
 
+
 .sidebar {
 	float: left;
 	width: 240px;
 	min-height: 730px;
 	outline: 2px solid green
+}
+.sidebar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
 }
 .contacts {
 	clear: both;
@@ -292,9 +308,21 @@ h1 {
 .catalog-filter {
 	clear: both;
 }
+.catalog-filter ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+}
 .catalog-filter ul li {
 	display: inline-block;
+	font-size: 12px;
+	line-height: 18px;
 }
+.catalog-filter a {
+	display: block;
+	text-decoration: none;
+}
+
 .catalog-item {
 	float: left;
 	width: 250px;
@@ -328,7 +356,7 @@ h1 {
 .footer-slogan {
 	font-size: 36px;
 	line-height: 36px;
-	
+
 }
 .footer-container-left {
 	float: left;

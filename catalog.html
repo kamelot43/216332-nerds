@@ -2,19 +2,18 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>Каталог</title>
   </head>
   <body>
     <header class="main-header-catalog">
-      <div class="container">
+      <div class="container clearfix">
+        <div class="index-logo">
+          <a href="#">
+          <img class="index-logo-img" src="img/index/logo.png" width="139" height="56" alt="Логотип"></a>         
+        </div>
         <nav class="main-navigation">
-          <div class="index-logo">
-            <a href="#">
-            <img src="img/index/logo-11.jpg" width="139" height="56" alt="Логотип">
-            </a>
-          </div>
           <ul>
             <li><a href="#">Студия</a></li>
             <li><a href="#">Клиенты</a></li>
@@ -24,8 +23,8 @@
         </nav>
         <div class="user-block">
           <a class="basket" href="#">Корзина</a>
-        </div>
-        <h1>Добро пожаловать в магазин готовых макетов</h1>
+        </div>      
+        <h1 class="main-welcome">Добро пожаловать в магазин готовых макетов</h1>
       </div>
     </header>
     <main class="container clearfix">
@@ -86,25 +85,41 @@
           </fieldset>
           <fieldset>
             <legend class="sidebar-title">Сетка:</legend>
-            <label for="grid-item-1">Адаптивная</label>
-            <input type="radio" name="grid" value="Адаптивная" id="grid-item-1">
-            <label for="grid-item-2">Фиксированная</label>
-            <input type="radio" name="grid" value="Фиксированная" id="grid-item-2">
-            <label for="grid-item-3">Резиновая</label>
-            <input type="radio" name="grid" value="Резиновая" id="grid-item-3">
+            <ul>
+            
+            <li><input type="radio" name="grid" value="Адаптивная" id="grid-item-1">
+            <label for="grid-item-1">Адаптивная</label></li>
+
+            
+            <li><input type="radio" name="grid" value="Фиксированная" id="grid-item-2">
+            <label for="grid-item-2">Фиксированная</label></li>
+
+            
+            <li><input type="radio" name="grid" value="Резиновая" id="grid-item-3">
+            <label for="grid-item-3">Резиновая</label></li>
+
+            </ul>
           </fieldset>
           <fieldset>
             <legend class="sidebar-title">Особенности:</legend>
-            <label for="features-item-1">Слайдер</label>
-            <input type="checkbox" name="features" id="features-item-1">
-            <label for="features-item-2">Блок приемуществ</label>
-            <input type="checkbox" name="features" id="features-item-2">
-            <label for="features-item-3">Новости</label>
-            <input type="checkbox" name="features" id="features-item-3">
-            <label for="features-item-4">Галерея</label>
-            <input type="checkbox" name="features" id="features-item-4">
-            <label for="features-item-5">Корзина</label>
-            <input type="checkbox" name="features" id="features-item-5">
+            <ul>
+
+            <li><input type="checkbox" name="features" id="features-item-1">
+            <label for="features-item-1">Слайдер</label></li>
+
+            <li><input type="checkbox" name="features" id="features-item-2">          
+            <label for="features-item-2">Блок приемуществ</label></li>
+
+            <li><input type="checkbox" name="features" id="features-item-3">           
+            <label for="features-item-3">Новости</label></li>
+
+            <li><input type="checkbox" name="features" id="features-item-4">           
+            <label for="features-item-4">Галерея</label></li>
+
+            <li><input type="checkbox" name="features" id="features-item-5">            
+            <label for="features-item-5">Корзина</label></li>
+            
+
           </fieldset>
           <button type="submit" class="sidebar-btn">Показать</button>
         </form>

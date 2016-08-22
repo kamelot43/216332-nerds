@@ -75,6 +75,13 @@ h1 {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+.basket:focus,
+.basket:hover,
+.main-navigation a:focus,
+.main-navigation a:hover {
+	color:#f4a7a9;
+}
+
  
 .main-navigation ul {
 	margin: 0px;
@@ -442,13 +449,47 @@ h1 {
 }
 /********************************************************************************************/
 .gallery {
+	position: relative;
 	margin-top: 75px;
 	outline: 2px solid green;
 	min-height: 170px;
 	margin-bottom: 85px;
 	background:yellow;
 }
+.gallery-item-1 {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	opacity: 0.2;
+}
+.gallery-item-2 {
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	opacity: 0.2;
+}
+.gallery-item-3 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	opacity: 0.2;
+}
 
+.gallery-item-3 img:hover{
+	opacity: 100%;
+}
+.main-footer {
+	position: relative;
+	outline: 3px solid red;
+}
+.contacts-adress {
+	position: absolute;
+	right:0px;
+	z-index: 10;
+}
+.main-footer-map {
+	z-index: 8;
+}
 .main-footer .container {
 	margin-top: 75px;	
 	min-height: 140px;
@@ -469,6 +510,3 @@ h1 {
 	width: 560px;
 }
 
-.main-footer{
-	outline: 3px solid red;
-}

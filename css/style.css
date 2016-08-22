@@ -20,8 +20,8 @@ h1 {
   clear: both;
 }
 .main-header {	
-	margin-bottom: 55px;
-	min-height: 80px;
+	
+	min-height: 135px;
 	background:#eeeeee;
 }
 
@@ -49,7 +49,7 @@ h1 {
 .index-logo {
 	position: relative;
 	float: left;
-	min-height: 80px;
+	min-height: 135px;
 	width: 150px;
 	outline: 2px solid green;
 }
@@ -60,7 +60,8 @@ h1 {
 .main-navigation {
 	float: left;
 	margin-left: 160px;
-	min-height: 80px;
+	min-height: 135px;
+	
 	width: 470px;
 	outline: 2px solid green;
 }
@@ -90,7 +91,7 @@ h1 {
 }
 .user-block {
 	float: right;
-	min-height: 8px;
+	min-height: 135px;
 	max-width: 90px;
 	outline: 2px solid yellow;
 
@@ -147,7 +148,7 @@ h1 {
 	float: right;
 	width: 340px;
 	min-height: 220px;
-	outline: 2px solid red;
+	
 }
 .slider-logo-img{
 	position: absolute;
@@ -155,15 +156,15 @@ h1 {
 .features {
 	min-height: 380px;	
 	background:url(../img/index/divide.png) no-repeat bottom;
-	margin-bottom:60px;
+	
 }
 .features-name {
 	font-size: 18px;
 	line-height: 30px;
 	text-transform: uppercase;
 	margin: 0px;
-	margin-top: 27px;
-	margin-bottom: 18px;
+	margin-top: 25px;
+	margin-bottom: 20px;
 	font-weight: 600;
 }
 .features-desc {
@@ -187,25 +188,30 @@ h1 {
 .features-item:last-child{
 	margin-right: 0px;
 }
-.btn-2 {
-	background:red;
-}
+
 .features-anchor {
 	display: inline-block;
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color:#ffffff;
-	background:#fb565a;
+	color:#ffffff;	
 	padding: 11px 40px;
 	text-decoration: none;
 }
-
+.features .anchor-1 {
+	background-color:#fb565a;
+}
+.features .anchor-2 {
+	background-color:#00ca74;
+}
+.features .anchor-3 {
+	background-color:#efc84a;
+}
 .about-company-content-left{
 	float: left;
 	width: 620px;
-	min-height: 415px;
+	min-height: 475px;
 	outline:2px solid red;	
 }
 .about-company-content-right{
@@ -216,19 +222,20 @@ h1 {
 	outline: 2px solid green;
 }
 .about-company{
-	margin-top: 140px;
+	
 	outline: 2px solid blue;
 }
 .about-company-slogan {
-	margin-top: 0px;
+	margin-top: 50px;
 	margin-bottom: 25px;
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: 600;
 }
 .about-container-right {
+    position:relative;	
 	width: 250px;
-	min-height: 140px;
+	min-height: 250px;
 	background-color: green;
 	outline: 2px solid red;
 	text-align: center;
@@ -237,9 +244,15 @@ h1 {
 }
 .about-container-left{
 	width: 620px;
-	min-height: 140px;
+	min-height: 250px;
 	background:yellow;
 	outline: 2px solid red;
+	border: 1px solid transparent;
+}
+.about-company-logo {
+	position: absolute;
+	top:50%;
+	left:50%;
 }
 
 .aside-menu {

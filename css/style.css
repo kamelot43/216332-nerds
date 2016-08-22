@@ -256,14 +256,49 @@ h1 {
 }
 .about-company-logo {
 	position: absolute;
-	top:50%;
 	left:50%;
+	top:50%;
+	
 }
+.about-company-since {
+	margin: 0px;
+	position: relative;
+	bottom: -210px;
+	padding:0 5px;
+}
+.about-company-since:before {
+	 content: "";
+	position:absolute;
+	 outline: 1px solid #eeeeee;
+	 top:50%;
+	 width: 70px;	
+	 left: 0px;
+}
+.about-company-since:after {
+	 content: "";
+	position:absolute;
+	 outline: 1px solid #eeeeee;
+	 top:50%;
+	 width: 70px;	
+	 right: 0px;
+}
+
 /*********************************************************************/
 /***********************aside*****************************************/
 .aside-menu {
 	margin: 0px;
 	padding: 0px;
+}
+.aside-item {
+	position: relative;
+}
+.aside-item:before {
+	 content: "";
+	position:absolute;
+	 outline: 1px solid red;
+	 top:50%;
+	 width: 20px;	
+	 left: 0px;
 }
 .aside-content-title {
 	margin: 0px;
@@ -295,10 +330,11 @@ h1 {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	margin-left: 35px;
+	
 }
 .aside-menu li {
 	margin-bottom: 15px;
+	padding-left:30px;
 }
 /*****************************************************************************************/
 

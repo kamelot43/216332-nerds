@@ -28,13 +28,10 @@ h1 {
 
 .main-header-catalog {
 	min-height: 328px;
-	outline: 2px solid yellow;
 	background:#eeeeee;
 	margin-bottom: 80px;
 }
-.main-header .container {
-	outline: 2px solid red;
-}
+
 .main-welcome {
 	font-size: 40px;
 	line-height: 40px;
@@ -52,7 +49,7 @@ h1 {
 	float: left;
 	min-height: 135px;
 	width: 150px;
-	outline: 2px solid green;
+	
 }
 .index-logo-img {
 	position: absolute;
@@ -61,10 +58,9 @@ h1 {
 .main-navigation {
 	float: left;
 	margin-left: 160px;
-	min-height: 135px;
-	
+	min-height: 135px;	
 	width: 470px;
-	outline: 2px solid green;
+	
 }
 .main-navigation a {
 	display: block;	
@@ -102,8 +98,7 @@ h1 {
 	float: right;
 	min-height: 135px;
 	max-width: 90px;
-	outline: 2px solid yellow;
-
+	
 }
 .basket {
 	display: inline-block;
@@ -136,17 +131,15 @@ h1 {
 .slider {
 	margin-bottom: 80px;
 	min-height: 300px;
-	background:#eeeeee;
-	outline: 2px solid blue;
+	background: #eeeeee;
+
 }
-.slider-content{
-	outline: 2px solid green;
-}
+
 .slider-content-left {
 	float: left;
 	width: 390px;
 	min-height: 220px;
-	outline: 2px solid yellow;
+	
 }
 .slider-slogan {
 	font-size: 36px;
@@ -211,7 +204,7 @@ h1 {
 	width: 240px;
 	margin-right: 80px;
 	min-height: 300px;
-	outline: 2px solid green;
+
 }
 .features-item:last-child{
 	margin-right: 0px;
@@ -226,6 +219,7 @@ h1 {
 	color:#ffffff;	
 	padding: 11px 40px;
 	text-decoration: none;
+	border-radius: 3px;
 }
 .features .anchor-1 {
 	background-color:#fb565a;
@@ -241,19 +235,16 @@ h1 {
 	float: left;
 	width: 620px;
 	min-height: 475px;
-	outline:2px solid red;	
+	
 }
 .about-company-content-right{
 	position: relative;
 	float: right;
 	width: 250px;
 	min-height: 415px;
-	outline: 2px solid green;
-}
-.about-company{
 	
-	outline: 2px solid blue;
-}
+}	
+	
 .about-company-slogan {
 	margin-top: 50px;
 	margin-bottom: 25px;
@@ -264,18 +255,14 @@ h1 {
 .about-container-right {
     position:relative;	
 	width: 250px;
-	min-height: 250px;
-	background-color: green;
-	outline: 2px solid red;
+	min-height: 250px;	
 	text-align: center;
 	text-transform: uppercase;
 
 }
 .about-container-left{
 	width: 620px;
-	min-height: 250px;
-	background:yellow;
-	outline: 2px solid red;
+	min-height: 250px;	
 	border: 1px solid transparent;
 }
 .about-company-logo {
@@ -340,14 +327,12 @@ h1 {
 .aside-content-left {
 	width: 480px;
 	height: 220px;
-	background:yellow;
-	outline: 2px solid blue;
+	
 }
 .aside-content-right {
 	width: 250px;
 	min-height: 220px;
-	background:yellow;
-	outline:2px solid blue;
+	
 }
 .aside-menu {
 	list-style: none;
@@ -367,7 +352,7 @@ h1 {
 	float: left;
 	width: 240px;
 	min-height: 730px;
-	outline: 2px solid green
+	
 }
 .sidebar ul {
 	list-style: none;
@@ -385,8 +370,7 @@ h1 {
 .catalog{
 	float: right;
 	width: 580px;
-	min-height: 1130px;
-	outline: 2px solid red;
+	min-height: 1130px;	
 	margin-bottom: 80px;
 }
 .catalog-filter {
@@ -434,12 +418,11 @@ h1 {
 	min-height: 240px;
 	padding-top: 30px;
 }
-.catalog-item:nth-child(2n+1){
-	outline: 3px solid blue;
+.catalog-item:nth-child(2n+1){	
 	margin-left: 80px;
 }
 .catalog-item:nth-child(2n) {
-	outline: 3px solid green;
+	
 }
 .catalog-paginator {
 	clear: both;
@@ -469,7 +452,7 @@ h1 {
 	outline: 2px solid green;
 	min-height: 170px;
 	margin-bottom: 85px;
-	background:yellow;
+	
 }
 .gallery ul li {
 	display: inline-block;
@@ -479,26 +462,52 @@ h1 {
 
 .main-footer {
 	position: relative;
-	outline: 3px solid red;
+	
 }
 .contacts-adress {
 	position: absolute;
 	background-color: white;
 	width: 250px;
-	height: 240px;
-	outline: 2px solid red;
-	top:20px;
-	right:50%;
+	height: 240px;	
+	top:80px;
+	right: 50%;
+	left:180px;
+	
 	z-index: 10;
+
+}
+.contacts-adress-btn {
+	display: inline-block;
+	text-transform: uppercase;
+	padding:12px 55px;
+	background-color:#fb565a;
+	font-size: 12px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 3px;
+	margin-left:15px;
+}
+.contacts-adress-title {
+	font-size: 16px;
+	margin-top: 25px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-left:15px;
+
+}
+.contacts-adress-item {
+	color: #666666;
+	margin-left: 15px;
+	margin-bottom: 15px;
 }
 .main-footer-map {
 	z-index: 8;
 }
 .main-footer .container {
 	margin-top: 75px;	
-	min-height: 140px;
-	outline: 2px solid green;
-	background:yellow;
+	min-height: 140px;	
+	
 }
 .footer-slogan {
 	font-size: 36px;
@@ -513,7 +522,11 @@ h1 {
 	float: right;
 	width: 560px;
 }
-
+.footer-slogan {
+	font-size: 36px;
+	line-height: 36px;
+	margin-top: 30px;
+}
 
 /**************btn******************************/
 .social-btn {
@@ -525,7 +538,7 @@ h1 {
 	font-size: 0px;
 	background:#e1e1e1;
 	position: relative;
-	margin-top:50px;
+	margin-top:30px;
 	margin-right: 20px;
 }
 .social-btn:before {

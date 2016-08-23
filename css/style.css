@@ -109,14 +109,27 @@ h1 {
 	display: inline-block;
 	vertical-align: top;
 	padding: 5px 0px;
+	padding-left: 10px;
 	margin-top: 48px;
-	margin-left: 25px;
+	margin-left: 10px;
 	font-size: 14px;
 	line-height: 30px;
 	text-transform: uppercase;
 	color:#3f3f3f;
-	text-decoration: none; 
+	text-decoration: none;
+	position: relative;
 
+}
+.basket:before {
+	content: "";
+	position: absolute;
+	background-image:url("../img/sprite.png");
+	 width: 15px;
+   height: 15px;
+   background-position: -10px -10px;
+   left: 0px;
+   top:50%;
+   transform: translate(-50%,-50%);
 }
 /**************************************************************************************/
 /*************************************slider*******************************************/
@@ -153,6 +166,7 @@ h1 {
 	background:#fb565a;
 	padding: 11px 70px;
 	text-decoration: none;
+	border-radius: 3px;
 }
 
 .slider-content-right{
@@ -491,7 +505,7 @@ h1 {
 	line-height: 36px;
 
 }
-.footer-container-left {
+.footer-content-left {
 	float: left;
 	width: 300px;
 }
@@ -500,3 +514,76 @@ h1 {
 	width: 560px;
 }
 
+
+/**************btn******************************/
+.social-btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 0px;
+	background:#e1e1e1;
+	position: relative;
+	margin-top:50px;
+	margin-right: 20px;
+}
+.social-btn:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+}
+.social-btn-vk:before {
+	 width: 26px;
+   height: 15px;
+   background-position: -10px -128px;
+}
+.social-btn-fb:before {
+	 width: 12px;
+    height: 22px;
+    background-position: -10px -45px;
+
+}
+.social-btn-inst:before {
+	 width: 21px;
+    height: 21px;
+    background-position: -10px -87px;
+}
+
+
+
+/*********************************************sprite*************************/
+.sprite {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite--icon-basket {
+    width: 15px;
+    height: 15px;
+    background-position: -10px -10px;
+}
+
+.sprite--icon-face {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -45px;
+}
+
+.sprite--icon-inst {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -87px;
+}
+
+.sprite--icon-vk {
+    width: 26px;
+    height: 15px;
+    background-position: -10px -128px;
+}
+/*******************************************************************/

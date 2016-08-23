@@ -67,10 +67,7 @@ h1 {
 	outline: 2px solid green;
 }
 .main-navigation a {
-	display: block;
-	padding-top:50px;
-	padding-left: 45px;
-	padding-bottom: 0px;
+	display: block;	
 	color:#3f3f3f;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -85,12 +82,16 @@ h1 {
  
 .main-navigation ul {
 	margin: 0px;
+	margin-left: 11px;
+	margin-top: 48px;
 	padding: 0px;
 	list-style: none;
 	font-size: 0px;
 }
 .main-navigation li {
 	display: inline-block;
+	margin-right: 41px;
+	padding: 5px 0px;
 	text-align: bottom;
 	font-size: 14px;
 	line-height: 30px;
@@ -107,8 +108,9 @@ h1 {
 .basket {
 	display: inline-block;
 	vertical-align: top;
-	padding-top: 50px;
-	padding-left: 25px;
+	padding: 5px 0px;
+	margin-top: 48px;
+	margin-left: 25px;
 	font-size: 14px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -137,10 +139,11 @@ h1 {
 	font-size: 36px;
 	line-height: 36px;
 	margin:0px;
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 23px;
+	margin-bottom: 17px;
 }
 .more {
+	margin-top: 10px;
 	display: inline-block;
 	font-size: 12px;
 	line-height: 18px;
@@ -262,15 +265,14 @@ h1 {
 	border: 1px solid transparent;
 }
 .about-company-logo {
-	position: absolute;
-	left:50%;
-	top:50%;
+	padding-top: 70px;
+	
 	
 }
 .about-company-since {
 	margin: 0px;
 	position: relative;
-	bottom: -210px;
+	bottom: -50px;
 	padding:0 5px;
 }
 .about-company-since:before {
@@ -448,43 +450,31 @@ h1 {
 	padding:0 40px;
 }
 /********************************************************************************************/
-.gallery {
-	position: relative;
+.gallery {	
 	margin-top: 75px;
 	outline: 2px solid green;
 	min-height: 170px;
 	margin-bottom: 85px;
 	background:yellow;
 }
-.gallery-item-1 {
-	position: absolute;
-	left: 0px;
-	top: 50%;
-	opacity: 0.2;
-}
-.gallery-item-2 {
-	position: absolute;	
-	top: 50%;
-	left: 50%;
-	opacity: 0.2;
-}
-.gallery-item-3 {
-	position: absolute;
-	right: 0px;
-	top: 50%;
-	opacity: 0.2;
+.gallery ul li {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
 }
 
-.gallery-item-3 img:hover{
-	opacity: 100%;
-}
 .main-footer {
 	position: relative;
 	outline: 3px solid red;
 }
 .contacts-adress {
 	position: absolute;
-	right:0px;
+	background-color: white;
+	width: 250px;
+	height: 240px;
+	outline: 2px solid red;
+	top:20px;
+	right:50%;
 	z-index: 10;
 }
 .main-footer-map {

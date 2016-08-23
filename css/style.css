@@ -62,24 +62,33 @@ h1 {
 	width: 470px;
 	
 }
+.main-navigation .active {
+	border-bottom: 2px solid #fb565a;
+}
 .main-navigation a {
 	display: block;	
 	color:#3f3f3f;
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
 .basket:focus,
 .basket:hover,
 .main-navigation a:focus,
 .main-navigation a:hover {
 	color:#f4a7a9;
+	cursor: pointer;
 }
 
+.basket:active,
+.main-navigation a:active {
+	color: #8f8f8f;
+}
  
 .main-navigation ul {
 	margin: 0px;
 	margin-left: 11px;
-	margin-top: 48px;
+	margin-top: 43px;
 	padding: 0px;
 	list-style: none;
 	font-size: 0px;
@@ -87,7 +96,7 @@ h1 {
 .main-navigation li {
 	display: inline-block;
 	margin-right: 41px;
-	padding: 5px 0px;
+	padding: 10px 0px;
 	text-align: bottom;
 	font-size: 14px;
 	line-height: 30px;
@@ -125,6 +134,9 @@ h1 {
    left: 0px;
    top:50%;
    transform: translate(-50%,-50%);
+}
+.basket:before:hover {
+	background-image:url("/img/icon-basket-red.png");
 }
 /**************************************************************************************/
 /*************************************slider*******************************************/
@@ -224,13 +236,43 @@ h1 {
 .features .anchor-1 {
 	background-color:#fb565a;
 }
+.features .anchor-1:hover,
+.features .anchor-1:focus{
+	background: #d6494d;
+}
+/*необходимо добавить тень */
+.features .anchor-1:active {
+	background: #b63538;
+}
+
 .features .anchor-2 {
 	background-color:#00ca74;
 }
+.features .anchor-2:hover,
+.features .anchor-2:focus {
+	background: #01a25e;
+}
+/*необходимо добавить тень*/
+.features .anchor-2:active{
+	background: #009053;
+}
+
 .features .anchor-3 {
 	background-color:#efc84a;
 }
+.features .anchor-3:hover,
+.features .anchor-:focus {
+	background: #d6ae2c;
+}
+/*необходимо добавить тень*/
+.features .anchor-3:active {
+	background: #c09b24;
+}
 /*********************************************about-company**********************/
+.about-company {
+	background:url(../img/index/divide.png) no-repeat bottom;
+}
+
 .about-company-content-left{
 	float: left;
 	width: 620px;
@@ -448,16 +490,21 @@ h1 {
 }
 /********************************************************************************************/
 .gallery {	
-	margin-top: 75px;
-	outline: 2px solid green;
+	margin-top: 75px;	
 	min-height: 170px;
 	margin-bottom: 85px;
+	background:url(../img/index/divide.png) no-repeat bottom;
 	
 }
 .gallery ul li {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
+	opacity: 0.2;
+}
+.gallery ul li:focus,
+.gallery ul li:hover {
+	opacity: 1;
 }
 
 .main-footer {
@@ -540,6 +587,14 @@ h1 {
 	position: relative;
 	margin-top:30px;
 	margin-right: 20px;
+}
+.social-btn:focus,
+.social-btn:hover {
+	background: #fb565a;
+}
+/*необходимо добавить тень*/
+.social-btn:active{
+ background: #d6494d;
 }
 .social-btn:before {
 	content: "";

@@ -52,8 +52,7 @@ body {
 
 h1 {
   clear: both;
-  font-size:40px;
-  line-height:auto;
+  font-size:40px;  
   color:rgb(0,0,0);
 }
 .clearfix::after {
@@ -166,17 +165,20 @@ h1 {
 	position: relative;
 
 }
-.basket:before {
-	content: "";
-	position: absolute;
+
+/*.basket:before {
+content: "\62"; 
+	
+	font-family: "symbols-nerds";
 	background-image:url("../img/sprite.png");
 	 width: 15px;
    height: 15px;
    background-position: -10px -10px;
-   left: 0px;
-   top:50%;
+   left: 0;
+   top:0;
    transform: translate(-50%,-50%);
-}
+} */
+
 
 /**************************************************************************************/
 /*************************************slider*******************************************/

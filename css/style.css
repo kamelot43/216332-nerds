@@ -177,9 +177,7 @@ h1 {
    top:50%;
    transform: translate(-50%,-50%);
 }
-.basket:before:hover {
-	background-image:url("/img/icon-basket-red.png");
-}
+
 /**************************************************************************************/
 /*************************************slider*******************************************/
 .slider {
@@ -442,6 +440,18 @@ h1 {
 	margin: 0px;
 	padding: 0px;
 }
+.sidebar-btn {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 30px;
+	padding:5px 20px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #f1f1f1;
+	box-shadow:0 0 0 0 ;
+}
 
 input[type="radio"]{
 	display: none;
@@ -516,7 +526,7 @@ input[type="checkbox"]:checked + label::before {
 	margin: 0px;
 	padding: 0px;
 	font-size: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .catalog-filter ul li {
 	display: inline-block;
@@ -526,10 +536,27 @@ input[type="checkbox"]:checked + label::before {
 .catalog-filter a {
 	display: block;
 	text-decoration: none;
-	padding-left: 37px;
+	margin-left: 32px;
 	color: #000000;
+	padding: 5px 0px;
+}
+.catalog-filter a:hover {
+	border-bottom: 2px solid #01a25e;
 }
 
+.catalog-filter a span {
+	color: #c1c1c1;
+	font-size: 23px;
+}
+
+.catalog-pagination a:focus,
+.catalog-pagination a:hover {
+	background: #e5e5e5;
+}
+/*необходимо добавить тень сверху*/
+.catalog-pagination a:active{
+	background: #d5d5d5;
+}
 .catalog-item {	
 	float: left;
 	width: 240px;
@@ -547,6 +574,9 @@ input[type="checkbox"]:checked + label::before {
   background-repeat: no-repeat;
   height: 30px;
   width: 240px;  
+}
+.catalog-content:hover:before {
+	opacity:0.2;
 }
 .catalog-content {
 	width: 240px;

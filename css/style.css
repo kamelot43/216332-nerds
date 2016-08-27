@@ -813,6 +813,7 @@ input[type="checkbox"]:checked + label::before {
 }
 .catalog-content {
 	position: relative;
+	display: block;
 }
 .catalog-content:before {
 	content: "";
@@ -831,6 +832,44 @@ input[type="checkbox"]:checked + label::before {
 	min-height: 240px;
 	padding-top: 30px;
 }
+
+.catalog-content-desc{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	z-index: 1;
+	background: white;
+	left: 20px;
+	top: 50px;
+	text-align: center;
+}
+.catalog-content-desc {
+	display: none;
+}
+.catalog-content:hover .catalog-content-desc {
+	display: block;
+}
+
+.catalog-content a.btn {
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+	text-align:center;
+	padding:10px 50px;
+  background:rgb(251,86,90);
+  border-radius: 5px;
+
+}
+.catalog-content p {
+	margin-bottom: 30px;
+}
+.catalog-content h4 {
+	text-transform: uppercase;
+}
+
+
+
+
 .catalog-item:nth-child(2n+1){	
 	margin-left: 80px;
 }
@@ -858,7 +897,7 @@ input[type="checkbox"]:checked + label::before {
  margin-right: 5px;
 	
 }
-/*не стилизуется поледняя кнопка*/
+не стилизуется поледняя кнопка
 .catalog .catalog-next  {
 	padding:0 40px;
 }
@@ -1035,3 +1074,92 @@ input[type="checkbox"]:checked + label::before {
     background-position: -10px -128px;
 }
 /*******************************************************************/
+/*.modal-content {
+  position: absolute;
+  bottom:-120px;
+  left: 50%;
+  margin-left:-315px;
+
+  width: 465px;
+  padding: 60px 80px;
+
+  color: #000000;
+
+  background: white;
+  outline: 2px dotted green;
+
+}
+.modal-content-close {
+  position: absolute;
+  top: 0;
+  right: 0px;
+
+  width: 30px;
+  height: 30px;
+  
+  font-size: 0;
+
+  background-color: red;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.modal-content-close::before,
+.modal-content-close::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 3px;
+
+
+  width: 22px;
+  height: 3px;
+  background-color: white;
+  border-radius: 1px;
+}
+.modal-content-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-content-close::after {
+  transform: rotate(-45deg);
+}
+
+.modal-content input {
+	display: inline-block;
+	font-family:'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  width: 220px;
+  margin-left: 20px; 
+  text-align: center;
+  color: #283136;
+  padding:10px 0;
+  outline: 2px dotted red;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #f1f1f1;
+  margin-bottom:30px;
+}
+
+.modal-content input:first-child {
+	margin-left: 0;
+}
+.modal-content textarea {
+	font-family:'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #283136;
+	border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #f1f1f1;
+  text-align: left;
+  color:#000000;
+}
+.user-form .btn {
+	width: 100%;
+	margin-top: 20px;
+}
+*/

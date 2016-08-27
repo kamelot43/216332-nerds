@@ -80,23 +80,31 @@
         </div>
       </div>
       <div class="sidebar">
-        <form action="#" method="post">
-          <fieldset>
-            <legend class="sidebar-title">Стоимость:</legend>
-            <input type="range" name="range">
-            от 0 до 15000
-          </fieldset>
+        <form action="form.php" method="get">
+        <fieldset>
+        <label class="sidebar-title">Стоимость:</label>
+    <div class="range-filter">
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar" style="margin-left: 20%; width: 30%"></div>
+          </div>
+          <div class="toggle toggle-min"></div>
+          <div class="toggle toggle-max"></div>
+        </div>
+        <div class="price-controls">
+          <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+          <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+        </div>
+      </div>
+      </fieldset>
           <fieldset>
             <legend class="sidebar-title">Сетка:</legend>
-            <ul>
-            
+            <ul>            
             <li><input type="radio" name="grid" value="Адаптивная" id="grid-item-1">
             <label for="grid-item-1">Адаптивная</label></li>
-
             
             <li><input type="radio" name="grid" value="Фиксированная" id="grid-item-2">
             <label for="grid-item-2">Фиксированная</label></li>
-
             
             <li><input type="radio" name="grid" value="Резиновая" id="grid-item-3">
             <label for="grid-item-3">Резиновая</label></li>
@@ -106,7 +114,6 @@
           <fieldset>
             <legend class="sidebar-title">Особенности:</legend>
             <ul>
-
             <li><input type="checkbox" name="features" id="features-item-1">
             <label for="features-item-1">Слайдер</label></li>
 
@@ -121,11 +128,11 @@
 
             <li><input type="checkbox" name="features" id="features-item-5">            
             <label for="features-item-5">Корзина</label></li>
-            
+            </ul>     
 
           </fieldset>
-          <button type="submit" class="sidebar-btn">Показать</button>
-        </form>
+           <button type="submit" class="sidebar-btn">Показать</button>
+          </form>          
       </div>      
     </main>
     <footer class="main-footer">

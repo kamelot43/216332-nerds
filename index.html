@@ -185,6 +185,23 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer>    
+    <div class="modal-content clearfix">
+     <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+     <form class="user-form" action="form.php" method="get">
+     <div class="modal-content-left-rows"
+     <label for="user-name">Ваше имя:</label><br>
+     <input type="text" name="user-name" id="user-name" placeholder="Представтесь пожалуйста">
+     </div>
+     <div class="modal-content-right-rows"
+     <label for="user-mail">Ваш e-mail:</label><br>
+     <input type="text" name="user-mail" id="user-mail" placeholder="Для отправки ответа">     
+     </div>
+     <label for="user-comment">Текст письма</label>
+    <textarea name="user-comment" id="user-comment" cols="74" rows="10">В свободной форме       
+     </textarea>
+         <button class="btn" type="submit">Отправить</button>
+     </form>      
+    </div>!
   </body>
 </html>

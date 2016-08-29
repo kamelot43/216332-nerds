@@ -5,7 +5,7 @@ body {
   line-height: 22px;
   color: rgb(40, 49, 54);
   background:#ffffff;
-  font-weight: 600;
+  font-weight: 500;
 }
 @font-face {
   font-weight: normal;
@@ -251,10 +251,7 @@ content: "\62";
 
   background-repeat: no-repeat;
   background-position: 100% 10px;
-
-  -webkit-transition: left 0.3s ease;
-     -moz-transition: left 0.3s ease;
-          transition: left 0.3s ease;
+  
 }
 
 .slider input[type="radio"] {
@@ -1084,10 +1081,9 @@ input[type="checkbox"]:checked + label::before {
 }
 /*******************************************************************/
 .modal-content {
-  position: absolute;
-  bottom:-1400px;
-  left: 50%;
-  margin-left:-315px;
+  position: fixed;  
+  right: 100px;
+  bottom: 100px;
   display:none;
 
   width: 465px;
@@ -1204,4 +1200,38 @@ input[type="checkbox"]:checked + label::before {
 	float: right;
 	width: 220px;
 	min-height: 65px;
+}
+.modal-content-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
+}
+
+@keyframes bounce {
+  0%   {
+    transform: translateY(-2000px);
+  }
+  70%  {
+    transform: translateY(30px);
+  }
+  90%  {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
 }

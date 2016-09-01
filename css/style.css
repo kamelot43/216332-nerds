@@ -868,7 +868,16 @@ input[type="checkbox"]:disabled + label:hover:before{
 	width: 123px;
 		}
 
+#triangle-up.active {	
+	border-bottom: 10px solid #00ca74;
+}
 
+#triangle-up:active{
+	border-bottom: 10px solid #000000;
+}
+#triangle-down:active {
+	border-top: 10px solid #000000;
+}
 #triangle-up{
 	position: absolute;	
 	cursor: pointer;	
@@ -886,6 +895,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-top: 10px solid #c1c1c1;
+	border-bottom: 2px solid transparent;
 }
 
 .catalog-pagination a:focus,
@@ -981,6 +991,11 @@ input[type="checkbox"]:disabled + label:hover:before{
 	font-weight: 500;
 	margin-top: 0;
 
+}
+.catalog-item a:first-child{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
 }
 
 

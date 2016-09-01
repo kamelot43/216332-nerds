@@ -80,9 +80,9 @@ h1 {
 	font-size: 40px;
 	line-height: 45px;
 	text-transform: uppercase;
-	padding-top: 16px;
+	padding-top: 15px;
 	text-align: center;
-	margin-left: -10px;
+	margin-left: -12px;
 	font-weight: 400;
 }
 .container {
@@ -625,12 +625,21 @@ content: "\62";
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	margin-top: -6px;
+	margin-left: -20px;
+}
+
+.sidebar ul li {
+	margin-left: 26px;
+}
+.sidebar .sidebar-form {
+	margin-top:20px;
 }
 .sidebar-btn {
 	 font-family: "Roboto", "Arial", sans-serif;
 	margin: 0;
 	padding: 0;
-	margin-top: -10px;
+	margin-top: 0px;
 	padding:10px 30px;
 	font-size: 12px;
 	line-height: 18px;
@@ -643,12 +652,23 @@ content: "\62";
 }
 .sidebar fieldset {
 	border:none;
-	margin-bottom: 40px;
+	margin-bottom: 38px;
 }
+
 .sidebar-title {
 	text-transform: uppercase;
-	font-size: 18px
+	font-size: 18px;
+	margin-left:2px;
 
+}
+.sidebar-title.first-legend {
+	margin-bottom: 0px;
+}
+.sidebar-title.second-legend {
+	margin-bottom: 11px;
+}
+.sidebar .sidebar-item {
+	margin-bottom: 20px;
 }
 
 input[type="radio"]{
@@ -709,10 +729,11 @@ input[type="checkbox"]:checked + label::before {
 }
 
 .range-filter {
-	margin-top:20px;
+	margin-top:15px;
   width: 240px;
   min-height: 150px;
   margin-bottom: -20px;
+  margin-left:4px;
   
 }
 
@@ -804,8 +825,9 @@ input[type="checkbox"]:checked + label::before {
 	margin: 0;
 	padding: 0;
 	font-size: 0;
-	margin-bottom: 11px;
-	margin-left: 16px;
+	margin-bottom: 15px;
+	margin-left: 18px;
+	margin-top: -12px;
 }
 .catalog-filter ul li {
 	display: inline-block;
@@ -826,7 +848,7 @@ input[type="checkbox"]:checked + label::before {
 .catalog-filter-triangles {
 	display: inline-block;
 	position: relative;
-	width: 125px;
+	width: 123px;
 		}
 
 
@@ -837,21 +859,17 @@ input[type="checkbox"]:checked + label::before {
 	right: 0;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	border-bottom: 10px solid red;
+	border-bottom: 10px solid #c1c1c1;
 }
 #triangle-down {
 	position: absolute;
 	cursor: pointer;
-	top: -10px;
-	right: 25px;
+	top: -8px;
+	right: 17px;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	border-top: 10px solid red;*/
+	border-top: 10px solid #c1c1c1;
 }
-/*#triangle-up:hover,
-#triangle-down:hover{
-	border-bottom: none;
-}*/
 
 .catalog-pagination a:focus,
 .catalog-pagination a:hover {
@@ -879,15 +897,17 @@ input[type="checkbox"]:checked + label::before {
   background-image:url("../img/catalog/xxx.jpg");
   background-repeat: no-repeat;
   height: 30px;
-  width: 240px;  
+  width: 240px;
+  opacity: 0.1;  
 }
 .catalog-content:hover:before {
-	opacity:0.2;
+	opacity:1;
 }
 .catalog-content {
 	width: 240px;
 	min-height: 240px;
 	padding-top: 30px;
+
 }
 
 .catalog-content-desc{
@@ -912,21 +932,31 @@ input[type="checkbox"]:checked + label::before {
 	color:white;
 	text-transform:uppercase;
 	text-align:center;
-	padding:10px 50px;
+	padding:8px 36px;
   background:rgb(251,86,90);
   border-radius: 5px;
+  font-size: 18px;
+  
+
 
 }
 .catalog-content p {
-	margin-bottom: 30px;
+	height: 50px;
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-size: 14px;
+	line-height: 18px;
 }
 .catalog-content h4 {
-	height: 50px;
+	height: 60px;
 	text-transform: uppercase;
 	font-size: 18px;
-	margin-top: 15px;
-	margin-bottom: 5px;
+	padding-top: 20px;
+	margin-bottom: 0px;
 	line-height: 24px;
+	font-weight: 500;
+	margin-top: 0;
+
 }
 
 
@@ -948,21 +978,25 @@ input[type="checkbox"]:checked + label::before {
  display:inline-block;
  font-size: 12px;
  font-weight: bold;
- height: 40px;
+ height: 38px;
  min-width: 40px;
  vertical-align:middle;
  text-align:center;
- line-height: 40px;
+ line-height: 38px;
  color: #000000;
  text-decoration: none; 
  background-color:#f1f1f1;
- margin-right: 5px;
+ margin-right: 4px;
 	
 }
-не стилизуется поледняя кнопка
-.catalog .catalog-next  {
-	padding:0 40px;
+a.catalog-btn.catalog-next {
+    min-width: 100px;
+    padding:0 20px;
+    text-transform: uppercase;
 }
+
+
+
 /********************************************************************************************/
 .gallery {	
 	margin-top: 30px;	

@@ -6,6 +6,7 @@
       var form = popup.querySelector("form");
       var login = popup.querySelector("[name=user-name]");
       var password = popup.querySelector("[name=user-mail]");
+      var comment= popup.querySelector("textarea");
 
       var storage = localStorage.getItem("login");
 
@@ -29,7 +30,7 @@
       });
 
       form.addEventListener("submit", function(event) {
-        if (!login.value || !password.value) {
+        if (!login.value || !password.value || !comment.value) {
           event.preventDefault();
           popup.classList.remove("modal-error");
           popup.offsetWidth = popup.offsetWidth;

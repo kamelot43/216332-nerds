@@ -66,7 +66,7 @@ h1 {
 	min-height: 135px;
 	background:#eeeeee;
 	  padding-top: 0px;
-	  margin-bottom: 70px;
+	  margin-bottom: 80px;
 
 }
 
@@ -78,12 +78,12 @@ h1 {
 
 .main-welcome {
 	font-size: 40px;
-	line-height: 45px;
+	line-height: 47px;
 	text-transform: uppercase;
-	padding-top: 15px;
+	padding-top: 13px;
 	text-align: center;
-	margin-left: -12px;
-	font-weight: 400;
+	margin-left: -14px;
+	font-weight: 500;
 }
 .container {
 	width: 880px;
@@ -192,7 +192,7 @@ content: "\62";
   position: relative;
 
   width: 880px;
-  min-height: 310px;
+  min-height: 300px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -216,7 +216,7 @@ content: "\62";
 
 .slider-controls {
   position: absolute;
-  bottom: 93px;
+  bottom: 83px;
   left: 50%;
   z-index: 10;
 
@@ -428,7 +428,7 @@ content: "\62";
 .about-company-content-left{
 	float: left;
 	width: 620px;
-	min-height: 475px;
+	min-height: 470px;
 	
 }
 .about-company-content-right{
@@ -458,7 +458,7 @@ content: "\62";
 }
 .about-container-left{
 	width: 620px;
-	min-height: 250px;	
+	min-height: 200px;	
 	border: 1px solid transparent;
 }
 .about-company-logo {
@@ -544,12 +544,12 @@ content: "\62";
 }
 .aside-content-left {
 	width: 480px;
-	height: 220px;
+	min-height: 200px;
 	
 }
 .aside-content-right {
 	width: 250px;
-	min-height: 220px;
+	min-height: 200px;
 	
 }
 .aside-menu {
@@ -577,15 +577,19 @@ content: "\62";
 	width: 240px;
 	min-height: 730px;
 	margin-left: -15px;
-	margin-top: -1px;
+	margin-top: -2px;
 	
 }
 .sidebar ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	margin-top: -6px;
-	margin-left: -20px;
+	margin-top: -5px;
+	margin-left: -22px;
+}
+.sidebar .second{
+	margin-top: -8px;
+	
 }
 
 .sidebar ul li {
@@ -599,8 +603,8 @@ content: "\62";
 	margin: 0;
 	padding: 0;
 	margin-top: 27px;
-	margin-left: 10px;
-	padding:10px 51px;
+	margin-left: 14px;
+	padding:10px 48px;
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: bold;
@@ -620,7 +624,7 @@ content: "\62";
 }
 .sidebar fieldset {
 	border:none;
-	margin-bottom: 38px;
+	margin-bottom: 36px;
 }
 .sidebar .last-fieldset{	
 	margin-bottom: 0;	
@@ -629,7 +633,8 @@ content: "\62";
 .sidebar-title {
 	text-transform: uppercase;
 	font-size: 18px;
-	margin-left:2px;
+	margin-left:1px;
+	padding-top: 3px;/*новое свойство*/
 
 }
 .sidebar-title.first-legend {
@@ -649,7 +654,7 @@ input[type="radio"]+label {
 	display: block;
 	margin: 0px 0px;
 	line-height: 20px;
-	padding-left: 30px;
+	padding-left: 33px;
 	position: relative;
 	cursor: pointer;
 }
@@ -680,7 +685,7 @@ input[type="checkbox"] + label {
 	display: block;
 	margin: 10px 0px;
 	line-height: 20px;
-	padding-left: 30px;
+	padding-left: 33px;
 	position: relative;
 	cursor: pointer;
 	
@@ -722,7 +727,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 	position: relative;
   height: 41px;
   padding-top: 39px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 5px;
@@ -771,9 +776,9 @@ input[type="checkbox"]:disabled + label:hover:before{
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   width: 60px;
-  margin-left: 10px;
+  margin-left: 5px;
 
-  padding: 8px 10px;
+  /*padding: 8px 10px;*/
   text-align: center;
   color: #283136;
   border: none;
@@ -782,6 +787,15 @@ input[type="checkbox"]:disabled + label:hover:before{
   background: #f1f1f1;
 
 }
+.price-controls input[name="max-price"]{
+	padding: 8px 11px;
+	color: red;
+
+}
+.price-controls input[name="min-price"]{
+	padding: 8px 9px;
+}
+
 .max-price {
   text-align: right;
 }
@@ -795,7 +809,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 	float: right;
 	width: 580px;
 	min-height: 1130px;	
-	margin-bottom: 80px;
+	margin-bottom: 82px;
 }
 .catalog-filter {
 	clear: both;
@@ -822,6 +836,9 @@ input[type="checkbox"]:disabled + label:hover:before{
 	color: #c7c7c7;	
 	border-bottom: 2px dotted #00ca74;
 	
+}
+.catalog-filter li::nth-child(3) a{
+	color: red;
 }
 .catalog-filter ul a:hover {
 	border-bottom: 2px solid #00ca74;
@@ -1025,7 +1042,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 
 /********************************************************************************************/
 .gallery {	
-	margin-top: 30px;	
+	margin-top: 50px;	
 	min-height: 120px;
 	margin-bottom: 85px;
 	border-bottom: 2px solid #eeeeee;
@@ -1204,6 +1221,7 @@ input[type="checkbox"]:disabled + label:hover:before{
   right: 100px;
   bottom: 100px;
   display:none;
+  
 
   width: 465px;
   padding: 60px 80px;
@@ -1258,7 +1276,7 @@ input[type="checkbox"]:disabled + label:hover:before{
   width: 210px;
   margin-top: 20px;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
   color: #283136;
   padding:10px 0;
   padding-left:10px;
@@ -1277,17 +1295,26 @@ input[type="checkbox"]:disabled + label:hover:before{
   font-size: 12px;
   line-height: 18px;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
 }
+
 .modal-content input[type="text"] {
 	border: 2px solid #f1f1f1;
 }
+.modal-content textarea,
 .modal-content input[type="text"]:hover {
 	border: 2px solid #a2a9ac;
 }
 .modal-content input[type="text"]:focus {
 	border: 2px solid #57bffb;
 }
+.modal-content textarea:hover {
+	border: 2px solid #a2a9ac;
+}
+.modal-content textarea:focus {
+	border: 2px solid #57bffb;
+}
+
 
 
 .modal-content textarea {
@@ -1296,12 +1323,12 @@ input[type="checkbox"]:disabled + label:hover:before{
   text-align: left;
   color: #283136;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
 	border: none;
   border-radius: 5px;
   outline: none;
   background: transparent;
-   border: 2px solid #e9e5dc;
+   border: 2px solid #f1f1f1;
   text-align: left;
   color:#000000;
   clear: both;
@@ -1318,7 +1345,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 	line-height: 18px;
 	padding: 10px 0;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 	color: white;
 }
 .modal-content-left-rows {

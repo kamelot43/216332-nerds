@@ -374,7 +374,7 @@ content: "\62";
 	display: inline-block;
 	font-size: 12px;
 	line-height: 18px;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 	color:#ffffff;	
 	padding: 11px 40px;
@@ -384,11 +384,17 @@ content: "\62";
 .features .anchor-1 {
 	background-color:#fb565a;
 }
+
+.user-form .btn:hover,
+.contacts-adress-btn:hover,
+.slide .btn:hover,
 .features .anchor-1:hover,
 .features .anchor-1:focus{
 	background: #d6494d;
 }
-
+.user-form .btn:active,
+.contacts-adress-btn:active,
+.slide .btn:active,
 .features .anchor-1:active {
 	background: #b63538;
 	box-shadow:inset 0 3px 0px 0 #9b2d30;
@@ -708,9 +714,14 @@ input[type="radio"] + label:hover:before,
 input[type="checkbox"] + label:hover:before{	
 	color:#b5b5b5;
 }
-input[type="radio"]:disabled + label:hover:before,
-input[type="checkbox"]:disabled + label:hover:before{	
+
+input[type="radio"]:disabled + label:before,
+input[type="checkbox"]:disabled + label::before{	
 	opacity: 0.4;
+}
+input[type="radio"]:disabled + label,
+input[type="checkbox"]:disabled + label{	
+	color:#a9adaf;
 }
 
 
@@ -788,8 +799,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 
 }
 .price-controls input[name="max-price"]{
-	padding: 8px 11px;
-	color: red;
+	padding: 8px 11px;	
 
 }
 .price-controls input[name="min-price"]{
@@ -832,17 +842,28 @@ input[type="checkbox"]:disabled + label:hover:before{
 .catalog-filter a {
 	display: block;
 	text-decoration: none;
-	margin-left: 40px;
+	margin-left: 38px;
 	color: #c7c7c7;	
 	border-bottom: 2px dotted #00ca74;
 	
 }
+.catalog-filter a.functional {	
+	margin-left: 45px;
+}
+.catalog-filter a.type {
+	margin-left: 42px;
+}
+
 .catalog-filter li::nth-child(3) a{
 	color: red;
 }
 .catalog-filter ul a:hover {
 	border-bottom: 2px solid #00ca74;
 	color: #000000;
+}
+.catalog-filter ul a:active {
+	color: #000000;
+	border-bottom: 2px solid transparent;
 }
 .catalog-filter ul .active {
 	color: #000000;
@@ -870,7 +891,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 	cursor: pointer;	
 	top: -20px;
 	padding-top: 10px;
-	right: -7px;
+	right: -3px;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-bottom: 10px solid #c1c1c1;
@@ -879,7 +900,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 	position: absolute;
 	cursor: pointer;
 	top: -8px;
-	right: 10px;
+	right: 15px;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-top: 10px solid #c1c1c1;
@@ -1347,6 +1368,7 @@ input[type="checkbox"]:disabled + label:hover:before{
 	text-transform: uppercase;
 	font-weight: 500;
 	color: white;
+	border-radius: 3px;
 }
 .modal-content-left-rows {
 	float: left;

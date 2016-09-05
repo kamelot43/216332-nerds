@@ -1,19 +1,15 @@
- var link = document.querySelector(".contacts-adress-btn");
-
+      var link = document.querySelector(".contacts-adress-btn");
       var popup = document.querySelector(".modal-content");
       var close = popup.querySelector(".modal-content-close");
-
       var form = popup.querySelector("form");
       var login = popup.querySelector("[name=user-name]");
       var password = popup.querySelector("[name=user-mail]");
       var comment= popup.querySelector("[name=user-comment]");
-
       var storage = localStorage.getItem("login");
 
       link.addEventListener("click", function(event) {
         event.preventDefault();
         popup.classList.add("modal-content-show");
-
         if (storage) {
           login.value = storage;
           password.focus();

@@ -1357,6 +1357,8 @@ input[type="checkbox"]:disabled + label{
   color:#000000;
   clear: both;
   margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 .user-form .btn {
 	font-family:'Roboto', 'Arial', sans-serif;

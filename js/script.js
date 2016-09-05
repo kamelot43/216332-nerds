@@ -6,7 +6,7 @@
       var form = popup.querySelector("form");
       var login = popup.querySelector("[name=user-name]");
       var password = popup.querySelector("[name=user-mail]");
-      var comment= popup.querySelector("textarea");
+      var comment= popup.querySelector("[name=user-comment]");
 
       var storage = localStorage.getItem("login");
 

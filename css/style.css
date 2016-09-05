@@ -854,9 +854,6 @@ input[type="checkbox"]:disabled + label{
 	margin-left: 42px;
 }
 
-.catalog-filter li::nth-child(3) a{
-	color: red;
-}
 .catalog-filter ul a:hover {
 	border-bottom: 2px solid #00ca74;
 	color: #000000;
@@ -1098,7 +1095,7 @@ input[type="checkbox"]:disabled + label{
 	width: 250px;
 	height: 240px;	
 	top:85px;	
-	left:210px;	
+	left:235px;	
 
 }
 .contacts-adress-btn {
@@ -1125,7 +1122,12 @@ input[type="checkbox"]:disabled + label{
 .contacts-adress-item {
 	color: #666666;
 	margin-left: 20px;
-	margin-bottom: 22px;
+	margin-bottom: 17px;
+}
+.contacts-adress-phone {
+	margin-bottom:27px;
+	margin-left:20px;
+	color:#666666;
 }
 .main-footer-map {
 	z-index: 8;
@@ -1153,6 +1155,7 @@ input[type="checkbox"]:disabled + label{
 	line-height: 36px;
 	margin-top: 25px;
 	margin-bottom: -5px;
+	margin-left: 1px;
 }
 
 /**************btn******************************/

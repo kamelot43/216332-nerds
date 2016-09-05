@@ -1242,13 +1242,13 @@ input[type="checkbox"]:disabled + label{
 /*******************************************************************/
 .modal-content {
   position: fixed;  
-  right: 100px;
-  bottom: 100px;
+  right: 375px;
+  bottom: 180px;
   display:none;
   
 
   width: 465px;
-  padding: 60px 80px;
+  padding: 60px 75px;
 
   color: #000000;
 
@@ -1298,7 +1298,7 @@ input[type="checkbox"]:disabled + label{
 	font-family:'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   width: 210px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: left;
   font-weight: 500;
   color: #283136;

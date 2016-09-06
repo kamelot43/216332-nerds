@@ -127,7 +127,7 @@ h1 {
 }
 .icon-basket:before {
 	content: "\62";   
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .basket:active,
@@ -344,6 +344,7 @@ h1 {
 	width: 240px;
 	margin-right: 80px;
 	min-height: 300px;
+	margin-bottom: 78px;
 }
 .features-item:last-child {
 	margin-right: 0;
@@ -431,7 +432,7 @@ h1 {
 	margin-left: -2px;	
 }
 .about-container-right {
-    position:relative;	
+  position:relative;	
 	width: 250px;
 	min-height: 250px;	
 	text-align: center;
@@ -646,7 +647,7 @@ input[type="radio"]+label::before {
 }
 
 input[type="radio"]:checked + label::before {
-	 content: "\25cf"; 
+	content: "\25cf"; 
 }
 
 
@@ -1124,8 +1125,8 @@ input[type="checkbox"]:disabled + label{
 }
 
 .social-btn:active{
- background: #d6494d;
- box-shadow:inset 0 3px 0px 0 #b63e42;
+  background: #d6494d;
+  box-shadow:inset 0 3px 0px 0 #b63e42;
 
 }
 .social-btn:before {

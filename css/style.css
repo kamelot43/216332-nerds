@@ -61,13 +61,11 @@ h1 {
   clear: both;
 }
 /******************************************header***********************************/
-.main-header {	
-	
+.main-header {		
 	min-height: 135px;
 	background:#eeeeee;
-	  padding-top: 0px;
-	  margin-bottom: 80px;
-
+	padding-top: 0px;
+	margin-bottom: 80px;
 }
 
 .main-header-catalog {
@@ -105,8 +103,7 @@ h1 {
 	float: left;
 	margin-left: 160px;
 	min-height: 135px;	
-	width: 460px;
-	
+	width: 460px;	
 }
 .main-navigation .active {
 	border-bottom: 2px solid #fb565a;
@@ -159,9 +156,9 @@ h1 {
 .user-block {
 	float: right;
 	min-height: 135px;
-	max-width: 110px;
-	
+	max-width: 110px;	
 }
+
 .basket {
 	display: inline-block;
 	vertical-align: top;
@@ -175,22 +172,12 @@ h1 {
 	color:#3f3f3f;
 	text-decoration: none;
 	position: relative;
-
 }
-
-/*.basket:before {
-content: "\62"; 
-	
-	
-} */
-
-
 /**************************************************************************************/
 /*************************************slider*******************************************/
 
 .slider {
   position: relative;
-
   width: 880px;
   min-height: 300px;
   margin: 0 auto;
@@ -201,13 +188,10 @@ content: "\62";
   position: absolute;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 310px;
-
   background-repeat: no-repeat;
-  background-position: 100% 10px;
-  
+  background-position: 100% 10px;  
 }
 
 .slider input[type="radio"] {
@@ -219,10 +203,8 @@ content: "\62";
   bottom: 83px;
   left: 50%;
   z-index: 10;
-
   width: 200px;
   margin-left: -111px;
-
   text-align: center;
 }
 
@@ -231,9 +213,7 @@ content: "\62";
   width: 4px;
   height: 4px;
   margin: 0 3px;
-
   vertical-align: top;
-
   background: #ffffff;
   border: 3px solid white;
   border-radius: 50%;
@@ -249,9 +229,16 @@ content: "\62";
   font-weight: 500;
   font-size: 36px;
   line-height: 36px;
-
 }
-
+.slide-title.slide-1 {
+	width: 300px;
+}
+.slide-title.slide-2 {
+	width: 520px;
+}
+.slide-title.slide-3 {
+	width: 320px;
+}
 .slide p {
   font-weight: 500;
   line-height: 22px;
@@ -263,14 +250,12 @@ content: "\62";
   width: 220px;
   margin-top: 29px;
   padding: 8px 10px;
-
   font-weight: 300;
   font-size: 12px;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-
   background: #fb565a;
   border-radius: 3px;
 }
@@ -283,14 +268,11 @@ content: "\62";
 .slide:nth-child(2) {
   background-image: url("../img/slide-2.png");
   background-position: top right;
-
-
 }
 
 .slide:nth-child(3) {
   background-image: url("../img/slide-3.png");
   background-position: top right;
-
 }
 
 #btn-1:checked ~ .slides .slide:nth-child(1) {
@@ -335,8 +317,7 @@ content: "\62";
 /*************************features**********************************************/
 .features {
 	min-height: 380px;	
-	border-bottom: 2px solid #eeeeee;
-	
+	border-bottom: 2px solid #eeeeee;	
 }
 .features-name {
 	font-size: 18px;
@@ -353,20 +334,18 @@ content: "\62";
 	line-height: 22px;
 	font-weight: 500;
 	margin-bottom: 25px;
-
 }
 .features-image {
 	width: 240px;
 	height: 124px;
 }
-.features-item{
+.features-item {
 	float: left;
 	width: 240px;
 	margin-right: 80px;
 	min-height: 300px;
-
 }
-.features-item:last-child{
+.features-item:last-child {
 	margin-right: 0;
 }
 
@@ -389,7 +368,7 @@ content: "\62";
 .contacts-adress-btn:hover,
 .slide .btn:hover,
 .features .anchor-1:hover,
-.features .anchor-1:focus{
+.features .anchor-1:focus {
 	background: #d6494d;
 }
 .user-form .btn:active,
@@ -431,18 +410,16 @@ content: "\62";
 	border-bottom: 2px solid #eeeeee;
 }
 
-.about-company-content-left{
+.about-company-content-left {
 	float: left;
 	width: 620px;
-	min-height: 470px;
-	
+	min-height: 470px;	
 }
-.about-company-content-right{
+.about-company-content-right {
 	position: relative;
 	float: right;
 	width: 250px;
 	min-height: 415px;
-	
 }	
 	
 .about-company-slogan {
@@ -451,8 +428,7 @@ content: "\62";
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: 500;
-	margin-left: -2px;
-	
+	margin-left: -2px;	
 }
 .about-container-right {
     position:relative;	
@@ -460,18 +436,15 @@ content: "\62";
 	min-height: 250px;	
 	text-align: center;
 	text-transform: uppercase;
-
 }
 .about-container-left{
-	width: 620px;
+	width: 570px;
 	min-height: 200px;	
 	border: 1px solid transparent;
 }
 .about-company-logo {
 	padding-top: 60px;
-	padding-left: 20px;
-	
-	
+	padding-left: 20px;	
 }
 .about-company-desc {
 	margin: 0;
@@ -486,20 +459,20 @@ content: "\62";
 	padding:0 5px;
 }
 .about-company-since:before {
-	 content: "";
+	content: "";
 	position:absolute;
-	 outline: 1px solid #eeeeee;
-	 top:50%;
-	 width: 70px;	
-	 left: 0;
+	outline: 1px solid #eeeeee;
+	top:50%;
+	width: 70px;	
+	left: 0;
 }
 .about-company-since:after {
-	 content: "";
+	content: "";
 	position:absolute;
-	 outline: 1px solid #eeeeee;
-	 top:50%;
-	 width: 70px;	
-	 right: 0;
+	outline: 1px solid #eeeeee;
+	top:50%;
+	width: 70px;	
+	right: 0;
 }
 
 /*********************************************************************/
@@ -513,12 +486,12 @@ content: "\62";
 	position: relative;
 }
 .aside-item:before {
-	 content: "";
-	position:absolute;
-	 outline: 1px solid #fb565a;
-	 top:50%;
-	 width: 23px;	
-	 left: 0;
+	content: "";
+  position:absolute;
+	outline: 1px solid #fb565a;
+	top:50%;
+	width: 23px;	
+	left: 0;
 }
 .aside-item-right::before {
 	content: "";
@@ -542,7 +515,6 @@ content: "\62";
 	line-height: 22px;
 	text-transform: uppercase;
 	font-weight: 500;
-
 }
 .aside-right {
 	margin-top: -1px;
@@ -550,19 +522,16 @@ content: "\62";
 }
 .aside-content-left {
 	width: 480px;
-	min-height: 200px;
-	
+	min-height: 200px;	
 }
 .aside-content-right {
 	width: 250px;
-	min-height: 200px;
-	
+	min-height: 200px;	
 }
 .aside-menu {
 	list-style: none;
 	margin: 0;
-	padding: 0;
-	
+	padding: 0;	
 }
 .aside-menu-right {
 	margin-left: 2px;
@@ -583,8 +552,7 @@ content: "\62";
 	width: 240px;
 	min-height: 730px;
 	margin-left: -15px;
-	margin-top: -2px;
-	
+	margin-top: -2px;	
 }
 .sidebar ul {
 	list-style: none;
@@ -593,9 +561,8 @@ content: "\62";
 	margin-top: -5px;
 	margin-left: -22px;
 }
-.sidebar .second{
-	margin-top: -8px;
-	
+.sidebar .second {
+	margin-top: -8px;	
 }
 
 .sidebar ul li {
@@ -605,7 +572,7 @@ content: "\62";
 	margin-top:20px;
 }
 .sidebar-btn {
-	 font-family: "Roboto", "Arial", sans-serif;
+	font-family: "Roboto", "Arial", sans-serif;
 	margin: 0;
 	padding: 0;
 	margin-top: 27px;
@@ -640,8 +607,7 @@ content: "\62";
 	text-transform: uppercase;
 	font-size: 18px;
 	margin-left:1px;
-	padding-top: 3px;/*новое свойство*/
-
+	padding-top: 3px;
 }
 .sidebar-title.first-legend {
 	margin-bottom: 0px;
@@ -653,7 +619,7 @@ content: "\62";
 	margin-bottom: 20px;
 }
 
-input[type="radio"]{
+input[type="radio"] {
 	display: none;
 }
 input[type="radio"]+label {
@@ -664,7 +630,7 @@ input[type="radio"]+label {
 	position: relative;
 	cursor: pointer;
 }
-input[type="radio"]+label{
+input[type="radio"]+label {
 	margin-top: 20px;
 }
 input[type="radio"]+label::before {
@@ -684,7 +650,7 @@ input[type="radio"]:checked + label::before {
 }
 
 
-input[type="checkbox"]{
+input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"] + label {
@@ -693,8 +659,7 @@ input[type="checkbox"] + label {
 	line-height: 20px;
 	padding-left: 33px;
 	position: relative;
-	cursor: pointer;
-	
+	cursor: pointer;	
 }
 input[type="checkbox"] + label::before {
 	content: "\2610";
@@ -711,12 +676,12 @@ input[type="checkbox"]:checked + label::before {
 	content: "\2611";
 }
 input[type="radio"] + label:hover:before,
-input[type="checkbox"] + label:hover:before{	
+input[type="checkbox"] + label:hover:before {	
 	color:#b5b5b5;
 }
 
 input[type="radio"]:disabled + label:before,
-input[type="checkbox"]:disabled + label::before{	
+input[type="checkbox"]:disabled + label::before {	
 	opacity: 0.4;
 }
 input[type="radio"]:disabled + label,
@@ -730,8 +695,7 @@ input[type="checkbox"]:disabled + label{
   width: 240px;
   min-height: 150px;
   margin-bottom: -20px;
-  margin-left:4px;
-  
+  margin-left:4px;  
 }
 
 .range-controls {
@@ -755,7 +719,7 @@ input[type="checkbox"]:disabled + label{
   background: #00ca74;
 }
 .range-controls .toggle {
-	  position: absolute;
+	position: absolute;
   top: 30px;
   left: 0px;
   width: 4px;
@@ -765,7 +729,6 @@ input[type="checkbox"]:disabled + label{
   background: #ababab;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 #cfcfcf;
-
 }
 .range-controls .toggle-min {
   left: 50px;
@@ -787,22 +750,18 @@ input[type="checkbox"]:disabled + label{
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   width: 60px;
-  margin-left: 5px;
-
-  /*padding: 8px 10px;*/
+  margin-left: 5px;  
   text-align: center;
   color: #283136;
   border: none;
   border-radius: 5px;
   outline: none;
   background: #f1f1f1;
-
 }
-.price-controls input[name="max-price"]{
+.price-controls input[name="max-price"] {
 	padding: 8px 11px;	
-
 }
-.price-controls input[name="min-price"]{
+.price-controls input[name="min-price"] {
 	padding: 8px 9px;
 }
 
@@ -815,7 +774,7 @@ input[type="checkbox"]:disabled + label{
 	clear: both;
 }
 /******************************************catalog*********************************************/
-.catalog{
+.catalog {
 	float: right;
 	width: 580px;
 	min-height: 1130px;	
@@ -865,25 +824,24 @@ input[type="checkbox"]:disabled + label{
 .catalog-filter ul .active {
 	color: #000000;
 	border: 2px solid transparent;
-
 }
 .catalog-filter-triangles {
 	display: inline-block;
 	position: relative;
 	width: 123px;
-		}
+}
 
 #triangle-up.active {	
 	border-bottom: 10px solid #00ca74;
 }
 
-#triangle-up:active{
+#triangle-up:active {
 	border-bottom: 10px solid #000000;
 }
 #triangle-down:active {
 	border-top: 10px solid #000000;
 }
-#triangle-up{
+#triangle-up {
 	position: absolute;	
 	cursor: pointer;	
 	top: -20px;
@@ -908,7 +866,7 @@ input[type="checkbox"]:disabled + label{
 .catalog-pagination a:hover {
 	background: #e5e5e5;
 }
-/*необходимо добавить тень сверху*/
+
 .catalog-pagination a:active{
 	background: #d5d5d5;
 }
@@ -940,10 +898,9 @@ input[type="checkbox"]:disabled + label{
 	width: 240px;
 	min-height: 240px;
 	padding-top: 30px;
-
 }
 
-.catalog-content-desc{
+.catalog-content-desc {
 	position: absolute;
 	width: 200px;
 	height: 200px;
@@ -969,7 +926,6 @@ input[type="checkbox"]:disabled + label{
   background:#fb565a;
   border-radius: 5px;
   font-size: 18px;  
-
 }
 
 .catalog-content a.btn:hover {
@@ -996,19 +952,17 @@ input[type="checkbox"]:disabled + label{
 	line-height: 24px;
 	font-weight: 500;
 	margin-top: 0;
-
 }
-.catalog-item a:first-child{
+.catalog-item a:first-child {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000000;
 }
 
-.catalog-item:nth-child(2n+1){	
+.catalog-item:nth-child(2n+1) {	
 	margin-left: 80px;
 }
-.catalog-item:nth-child(2n) {
-	
+.catalog-item:nth-child(2n) {	
 }
 .catalog-paginator {
 	clear: both;
@@ -1018,39 +972,36 @@ input[type="checkbox"]:disabled + label{
 	border:2px solid red;
 }
 .catalog-pagination a {
- display:inline-block;
- font-size: 12px;
- font-weight: 500;
- height: 37px;
- min-width: 37px;
- vertical-align:middle;
- text-align:center;
- line-height: 37px;
- color: #000000;
- text-decoration: none; 
- background-color:#f1f1f1;
- margin-right: 6px;
- border-radius: 3px;
- 
-	
+  display:inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  height: 37px;
+  min-width: 37px;
+  vertical-align:middle;
+  text-align:center;
+  line-height: 37px;
+  color: #000000;
+  text-decoration: none; 
+  background-color:#f1f1f1;
+  margin-right: 6px;
+  border-radius: 3px;	
 }
 .catalog-pagination .catalog-next {
-    min-width: 100px;
-    padding:0 20px;
-    text-transform: uppercase;
+  min-width: 100px;
+  padding:0 20px;
+  text-transform: uppercase;
 }
 .catalog-pagination a.active:active,
 .catalog-pagination a.active:hover,
 .catalog-pagination a.active {
 	height: 35px;
 	line-height: 35px;
- min-width: 35px;
+  min-width: 35px;
 	background: transparent;
 	border: 2px solid #f2f2f2;
 }
 .catalog-pagination a:hover {
-	background: #e5e5e5;
-	
+	background: #e5e5e5;	
 }
 .catalog-pagination a:active {
 	background: #d5d5d5;	
@@ -1063,8 +1014,7 @@ input[type="checkbox"]:disabled + label{
 	margin-top: 50px;	
 	min-height: 120px;
 	margin-bottom: 85px;
-	border-bottom: 2px solid #eeeeee;
-	
+	border-bottom: 2px solid #eeeeee;	
 }
 .gallery ul li {
 	display: inline-block;
@@ -1086,8 +1036,7 @@ input[type="checkbox"]:disabled + label{
 }
 
 .main-footer {
-	position: relative;
-	
+	position: relative;	
 }
 .contacts-adress {
 	position: absolute;
@@ -1096,7 +1045,6 @@ input[type="checkbox"]:disabled + label{
 	height: 240px;	
 	top:85px;	
 	left:235px;	
-
 }
 .contacts-adress-btn {
 	display: inline-block;
@@ -1117,12 +1065,12 @@ input[type="checkbox"]:disabled + label{
 	text-transform: uppercase;
 	margin-left:20px;
 	margin-bottom: 10px;
-
 }
 .contacts-adress-item {
 	color: #666666;
 	margin-left: 20px;
 	margin-bottom: 17px;
+	width: 210px;
 }
 .contacts-adress-phone {
 	margin-bottom:27px;
@@ -1134,8 +1082,7 @@ input[type="checkbox"]:disabled + label{
 }
 .main-footer .container {
 	margin-top: 37px;	
-	min-height: 140px;	
-	
+	min-height: 140px;		
 }
 .footer-slogan {
 	font-size: 36px;
@@ -1192,53 +1139,52 @@ input[type="checkbox"]:disabled + label{
 	background-repeat: no-repeat;
 }
 .social-btn-vk:before {
-	 width: 26px;
-   height: 15px;
-   background-position: -10px -128px;
+	width: 26px;
+  height: 15px;
+  background-position: -10px -128px;
 }
 .social-btn-fb:before {
-	 width: 12px;
-    height: 22px;
-    background-position: -10px -45px;
-
+  width: 12px;
+  height: 22px;
+  background-position: -10px -45px;
 }
 .social-btn-inst:before {
-	 width: 21px;
-    height: 21px;
-    background-position: -10px -87px;
+	width: 21px;
+  height: 21px;
+  background-position: -10px -87px;
 }
 
 
 
 /*********************************************sprite*************************/
 .sprite {
-    background-image: url("../img/sprite.png");
-    background-repeat: no-repeat;
-    display: block;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
 }
 
 .sprite--icon-basket {
-    width: 15px;
-    height: 15px;
-    background-position: -10px -10px;
+  width: 15px;
+  height: 15px;
+  background-position: -10px -10px;
 }
 
 .sprite--icon-face {
-    width: 12px;
-    height: 22px;
-    background-position: -10px -45px;
+  width: 12px;
+  height: 22px;
+  background-position: -10px -45px;
 }
 
 .sprite--icon-inst {
-    width: 21px;
-    height: 21px;
-    background-position: -10px -87px;
+  width: 21px;
+  height: 21px;
+  background-position: -10px -87px;
 }
 
 .sprite--icon-vk {
-    width: 26px;
-    height: 15px;
-    background-position: -10px -128px;
+  width: 26px;
+  height: 15px;
+  background-position: -10px -128px;
 }
 /*******************************************************************/
 .modal-content {
@@ -1246,27 +1192,19 @@ input[type="checkbox"]:disabled + label{
   right: 375px;
   bottom: 180px;
   display:none;
-  
-
   width: 465px;
   padding: 60px 75px;
-
   color: #000000;
-
   background: white;
-  box-shadow: 0px 20px 40px 0px #60605d;
-  
+  box-shadow: 0px 20px 40px 0px #60605d;  
 }
 .modal-content-close {
   position: absolute;
   top: 10px;
   right: 10px;
-
   width: 40px;
-  height: 40px;
-  
+  height: 40px;  
   font-size: 0;
-
   background-color:#fb565a;
   border: 0;
   outline: 0;
@@ -1279,8 +1217,6 @@ input[type="checkbox"]:disabled + label{
   position: absolute;
   top: 17px;
   left: 7px;
-
-
   width: 25px;
   height: 5px;
   background-color: white;
@@ -1315,8 +1251,7 @@ input[type="checkbox"]:disabled + label{
   border: 2px solid #e9e5dc;
   margin-bottom:30px;
 }
-::-webkit-input-placeholder{
- 
+::-webkit-input-placeholder { 
 	color:#000000;
   text-transform: uppercase;
   font-size: 12px;
@@ -1341,9 +1276,6 @@ input[type="checkbox"]:disabled + label{
 .modal-content textarea:focus {
 	border: 2px solid #57bffb;
 }
-
-
-
 .modal-content textarea {
 	font-family:'Roboto', 'Arial', sans-serif;
   font-size: 12px;
@@ -1355,7 +1287,7 @@ input[type="checkbox"]:disabled + label{
   border-radius: 5px;
   outline: none;
   background: transparent;
-   border: 2px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
   text-align: left;
   color:#000000;
   clear: both;
